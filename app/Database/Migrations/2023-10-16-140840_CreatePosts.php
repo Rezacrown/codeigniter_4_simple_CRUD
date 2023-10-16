@@ -55,11 +55,11 @@ class CreatePosts extends Migration
             'CASCADE',
             'CASCADE',
         );
-        $this->forge->createTable('posts');
+        $this->forge->createTable('post');
     }
 
     public function down()
     {
-        $this->forge->dropTable('posts');
+        $this->forge->dropTable('post');
     }
 }
