@@ -1,0 +1,795 @@
+CRITICAL - 2023-10-17 05:57:03 --> Undefined variable $title
+in APPPATH\Views\layouts\app.php on line 8.
+ 1 APPPATH\Views\layouts\app.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(36): view('pages/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 05:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 05:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 06:22:29 --> "requires" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requires')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('category_id', 'category_id', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Crud\PostController.php(73): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 06:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 06:50:37 --> Controller or its method is not found: \App\Controllers\Crud\PostController::delete/1
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('\\App\\Controllers\\Crud\\PostController', 'delete/1')
+ 2 APPPATH\Views\pages\post.php(56): url_to('\\App\\Controllers\\Crud\\PostController::delete/1')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 06:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 06:58:58 --> Controller or its method is not found: \App\Controllers\Crud\PostController::delete
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('\\App\\Controllers\\Crud\\PostController', 'delete')
+ 2 APPPATH\Views\pages\post.php(56): url_to('\\App\\Controllers\\Crud\\PostController::delete')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 06:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 06:59:39 --> Controller or its method is not found: \App\Controllers\Crud\PostController::delete/1
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('\\App\\Controllers\\Crud\\PostController', 'delete/1')
+ 2 APPPATH\Views\pages\post.php(56): url_to('\\App\\Controllers\\Crud\\PostController::delete/1')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:00:12 --> Controller or its method is not found: Crud/PostController::delete/1
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Crud/PostController', 'delete/1')
+ 2 APPPATH\Views\pages\post.php(56): url_to('Crud/PostController::delete/1')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:07:36 --> preg_match(): Argument #2 ($subject) must be of type string, array given
+in SYSTEMPATH\Router\RouteCollection.php on line 1354.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1354): preg_match('#^(.*)$#u', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1202): CodeIgniter\Router\RouteCollection->buildReverseRoute('post/(.*)', [...])
+ 3 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('App\\Controllers\\Crud\\PostController::delete', [...])
+ 4 APPPATH\Views\pages\post.php(56): route_to('\\App\\Controllers\\Crud\\PostController::delete', [...])
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 8 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:19:33 --> Undefined variable $category
+in APPPATH\Views\pages\edit.php on line 28.
+ 1 APPPATH\Views\pages\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(96): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Olahraga teratur')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:40:28 --> Undefined variable $error
+in APPPATH\Views\pages\edit.php on line 18.
+ 1 APPPATH\Views\pages\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:40:37 --> Undefined variable $error
+in APPPATH\Views\pages\edit.php on line 18.
+ 1 APPPATH\Views\pages\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:45:50 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\pages\edit.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 4 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:47:22 --> Cannot use object of type CodeIgniter\Validation\Validation as array
+in APPPATH\Views\pages\edit.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 4 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:48:49 --> Array to string conversion
+in APPPATH\Views\pages\edit.php on line 20.
+ 1 APPPATH\Views\pages\edit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 07:50:06 --> [DEPRECATED] preg_quote(): Passing null to parameter #1 ($str) of type string is deprecated in SYSTEMPATH\Validation\Validation.php on line 831.
+ 1 SYSTEMPATH\Validation\Validation.php(831): preg_quote(null, '/')
+ 2 [internal function]: CodeIgniter\Validation\Validation::CodeIgniter\Validation\{closure}('name')
+ 3 SYSTEMPATH\Validation\Validation.php(830): array_filter([...], Object(Closure), 2)
+ 4 APPPATH\Controllers\Crud\PostController.php(129): CodeIgniter\Validation\Validation->getError()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->update('Berbisnis dengan orang itali', 'post', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 07:50:22 --> [DEPRECATED] preg_quote(): Passing null to parameter #1 ($str) of type string is deprecated in SYSTEMPATH\Validation\Validation.php on line 831.
+ 1 SYSTEMPATH\Validation\Validation.php(831): preg_quote(null, '/')
+ 2 [internal function]: CodeIgniter\Validation\Validation::CodeIgniter\Validation\{closure}('name')
+ 3 SYSTEMPATH\Validation\Validation.php(830): array_filter([...], Object(Closure), 2)
+ 4 APPPATH\Controllers\Crud\PostController.php(129): CodeIgniter\Validation\Validation->getError()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->update('Berbisnis dengan orang itali', 'post', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:50:22 --> Array to string conversion
+in APPPATH\Views\pages\edit.php on line 20.
+ 1 APPPATH\Views\pages\edit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 07:50:52 --> [DEPRECATED] preg_quote(): Passing null to parameter #1 ($str) of type string is deprecated in SYSTEMPATH\Validation\Validation.php on line 831.
+ 1 SYSTEMPATH\Validation\Validation.php(831): preg_quote(null, '/')
+ 2 [internal function]: CodeIgniter\Validation\Validation::CodeIgniter\Validation\{closure}('name')
+ 3 SYSTEMPATH\Validation\Validation.php(830): array_filter([...], Object(Closure), 2)
+ 4 APPPATH\Controllers\Crud\PostController.php(129): CodeIgniter\Validation\Validation->getError()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->update('Berbisnis dengan orang itali', 'post', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-17 07:51:26 --> [DEPRECATED] preg_quote(): Passing null to parameter #1 ($str) of type string is deprecated in SYSTEMPATH\Validation\Validation.php on line 831.
+ 1 SYSTEMPATH\Validation\Validation.php(831): preg_quote(null, '/')
+ 2 [internal function]: CodeIgniter\Validation\Validation::CodeIgniter\Validation\{closure}('name')
+ 3 SYSTEMPATH\Validation\Validation.php(830): array_filter([...], Object(Closure), 2)
+ 4 APPPATH\Controllers\Crud\PostController.php(129): CodeIgniter\Validation\Validation->getError()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->update('Berbisnis dengan orang itali', 'post', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:51:41 --> Cannot use object of type CodeIgniter\Validation\Validation as array
+in APPPATH\Views\pages\edit.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 4 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:55:03 --> Array to string conversion
+in APPPATH\Views\pages\edit.php on line 21.
+ 1 APPPATH\Views\pages\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:55:26 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\pages\edit.php on line 15.
+ 1 APPPATH\Views\pages\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 07:57:27 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\pages\edit.php on line 15.
+ 1 APPPATH\Views\pages\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(95): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Berbisnis dengan orang itali')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 07:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 08:02:26 --> Call to a member function save() on array
+in APPPATH\Controllers\Crud\PostController.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->update('Berbisnis dengan orang itali', 'post', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 08:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 08:20:36 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 17.
+ 1 APPPATH\Views\components\Navbar\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\post.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 08:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 08:22:02 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 17.
+ 1 APPPATH\Views\components\Navbar\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\post.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:22:11 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 17.
+ 1 APPPATH\Views\components\Navbar\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:22:18 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 17.
+ 1 APPPATH\Views\components\Navbar\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:22:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\Navbar\index.php on line 19.
+ 1 APPPATH\Views\components\Navbar\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:22:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\Navbar\index.php on line 19.
+ 1 APPPATH\Views\components\Navbar\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:22:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\Navbar\index.php on line 19.
+ 1 APPPATH\Views\components\Navbar\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:23:04 --> Undefined array key "name"
+in APPPATH\Views\components\Navbar\index.php on line 19.
+ 1 APPPATH\Views\components\Navbar\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:23:05 --> Undefined array key "name"
+in APPPATH\Views\components\Navbar\index.php on line 19.
+ 1 APPPATH\Views\components\Navbar\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:23:25 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 18.
+ 1 APPPATH\Views\components\Navbar\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-17 08:23:47 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 18.
+ 1 APPPATH\Views\components\Navbar\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\create.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(38): view('pages/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 08:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 08:27:36 --> Array to string conversion
+in APPPATH\Views\components\Navbar\index.php on line 17.
+ 1 APPPATH\Views\components\Navbar\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\edit.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\edit.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/edit', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(96): view('pages/edit', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->edit('Memancing untuk Hari ini')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 08:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 08:29:58 --> Undefined variable $post
+in APPPATH\Views\components\Navbar\index.php on line 17.
+ 1 APPPATH\Views\components\Navbar\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Navbar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Navbar/index.php', null, true)
+ 5 APPPATH\Views\pages\post.php(9): CodeIgniter\View\View->include('/components/Navbar/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 9 APPPATH\Controllers\Crud\PostController.php(28): view('pages/post', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-17 08:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

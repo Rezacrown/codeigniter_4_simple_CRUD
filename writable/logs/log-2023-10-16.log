@@ -1856,3 +1856,583 @@ in APPPATH\Views\pages\post.php on line 28.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:34:34 --> New expressions are not supported in this context
+in APPPATH\Controllers\Crud\PostController.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-16 16:34:35 --> New expressions are not supported in this context
+in APPPATH\Controllers\Crud\PostController.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-16 16:34:45 --> New expressions are not supported in this context
+in APPPATH\Controllers\Crud\PostController.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-16 16:34:52 --> Undefined constant "App\Controllers\Crud\PostModel"
+in SYSTEMPATH\CodeIgniter.php on line 891.
+ 1 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:35:57 --> Call to a member function findAll() on string
+in APPPATH\Controllers\Crud\PostController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:35:58 --> Call to a member function findAll() on string
+in APPPATH\Controllers\Crud\PostController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:37:12 --> Too few arguments to function App\Controllers\Crud\PostController::__construct(), 0 passed in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php on line 891 and exactly 1 expected
+in APPPATH\Controllers\Crud\PostController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Crud\PostController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:37:13 --> Too few arguments to function App\Controllers\Crud\PostController::__construct(), 0 passed in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php on line 891 and exactly 1 expected
+in APPPATH\Controllers\Crud\PostController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Crud\PostController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:38:09 --> Typed property App\Controllers\Crud\PostController::$post must not be accessed before initialization
+in APPPATH\Controllers\Crud\PostController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:38:10 --> Typed property App\Controllers\Crud\PostController::$post must not be accessed before initialization
+in APPPATH\Controllers\Crud\PostController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:38:11 --> Typed property App\Controllers\Crud\PostController::$post must not be accessed before initialization
+in APPPATH\Controllers\Crud\PostController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:40:29 --> "post." filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('post.')
+ 2 SYSTEMPATH\Filters\Filters.php(405): CodeIgniter\Filters\Filters->enableFilter('post.', 'before')
+ 3 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(61): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(60): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('/')
+ 5 SYSTEMPATH\Commands\Utilities\Routes.php(122): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', '/')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 7 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('routes', [])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-10-16 16:40:52 --> "post-test" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('post-test')
+ 2 SYSTEMPATH\Filters\Filters.php(405): CodeIgniter\Filters\Filters->enableFilter('post-test', 'before')
+ 3 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(61): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(60): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('/')
+ 5 SYSTEMPATH\Commands\Utilities\Routes.php(122): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', '/')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 7 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('routes', [])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-10-16 16:54:48 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(19): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:54:54 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(19): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:54:55 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(19): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:55:29 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(17): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:55:30 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(17): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:56:47 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(17): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:56:59 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(17): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:57:00 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(17): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(21): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:57:43 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(11): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Home.php(9): view('pages/post', [])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:57:45 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(11): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Home.php(9): view('pages/post', [])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:57:45 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(11): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Home.php(9): view('pages/post', [])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 16:57:46 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(11): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Home.php(9): view('pages/post', [])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+ERROR - 2023-10-16 17:20:30 --> mysqli_sql_exception: Table 'codeigniter_4_crud.categories' doesn't exist in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#12 {main}
+CRITICAL - 2023-10-16 17:20:30 --> Table 'codeigniter_4_crud.categories' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`
+WHERE `categories`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Crud\PostController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 17:48:13 --> Controller or its method is not found: Crud/PostController::create
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Crud/PostController', 'create')
+ 2 APPPATH\Views\pages\create.php(14): url_to('Crud/PostController::create')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(35): view('pages/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 17:48:16 --> Controller or its method is not found: Crud/PostController::create
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Crud/PostController', 'create')
+ 2 APPPATH\Views\pages\create.php(14): url_to('Crud/PostController::create')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\create.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(35): view('pages/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 17:52:32 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('name=zerocrown&description=&category_id=1&author_id=1', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('name=zerocrown&description=&category_id=1&author_id=1', false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert('name=zerocrown&description=&category_id=1&author_id=1', false)
+ 4 APPPATH\Controllers\Crud\PostController.php(43): CodeIgniter\BaseModel->save('name=zerocrown&description=&category_id=1&author_id=1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 17:53:05 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('name=zerocrown&description=&category_id=1&author_id=1', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('name=zerocrown&description=&category_id=1&author_id=1', true)
+ 3 APPPATH\Controllers\Crud\PostController.php(43): CodeIgniter\Model->insert('name=zerocrown&description=&category_id=1&author_id=1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 17:53:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Crud\PostController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 17:54:22 --> Array to string conversion
+in APPPATH\Controllers\Crud\PostController.php on line 43.
+ 1 APPPATH\Controllers\Crud\PostController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Controllers\\Crud\\PostController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 18:05:02 --> include(/components/Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\app.php on line 13.
+ 1 APPPATH\Views\layouts\app.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/components/Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 13)
+ 2 APPPATH\Views\layouts\app.php(13): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 7 APPPATH\Controllers\Crud\PostController.php(35): view('pages/create', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 18:05:09 --> include(../components/Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\app.php on line 13.
+ 1 APPPATH\Views\layouts\app.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../components/Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 13)
+ 2 APPPATH\Views\layouts\app.php(13): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 7 APPPATH\Controllers\Crud\PostController.php(35): view('pages/create', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 18:05:10 --> include(../components/Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\app.php on line 13.
+ 1 APPPATH\Views\layouts\app.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../components/Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 13)
+ 2 APPPATH\Views\layouts\app.php(13): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 7 APPPATH\Controllers\Crud\PostController.php(35): view('pages/create', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 18:05:31 --> include(components/Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\app.php on line 13.
+ 1 APPPATH\Views\layouts\app.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 13)
+ 2 APPPATH\Views\layouts\app.php(13): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/create', [], true)
+ 7 APPPATH\Controllers\Crud\PostController.php(35): view('pages/create', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->new()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 18:06:35 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\layouts\app.php on line 15.
+ 1 APPPATH\Views\layouts\app.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(27): view('pages/post', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 18:07:59 --> Undefined variable $session
+in APPPATH\Views\layouts\app.php on line 19.
+ 1 APPPATH\Views\layouts\app.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\layouts\\app.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('/layouts/app.php', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+ 6 APPPATH\Controllers\Crud\PostController.php(27): view('pages/post', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 18:11:54 --> include(../Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\components\Breadcrumb\index.php on line 24.
+ 1 APPPATH\Views\components\Breadcrumb\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php', 24)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(24): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(27): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+CRITICAL - 2023-10-16 18:12:09 --> include(/components/Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\components\Breadcrumb\index.php on line 24.
+ 1 APPPATH\Views\components\Breadcrumb\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/components/Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php', 24)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(24): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(27): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 18:13:55 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\components\Alert\index.php on line 2.
+ 1 APPPATH\Views\components\Alert\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Alert\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Alert\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Alert/index.php', null, true)
+ 5 APPPATH\Views\components\Breadcrumb\index.php(24): CodeIgniter\View\View->include('/components/Alert/index.php')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 9 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+10 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+11 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+13 APPPATH\Controllers\Crud\PostController.php(27): view('pages/post', [...])
+14 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+15 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+16 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 18:16:15 --> include(/components/Alert/index.php): Failed to open stream: No such file or directory
+in APPPATH\Views\components\Breadcrumb\index.php on line 24.
+ 1 APPPATH\Views\components\Breadcrumb\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/components/Alert/index.php): Failed to open stream: No such file or directory', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php', 24)
+ 2 APPPATH\Views\components\Breadcrumb\index.php(24): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\components\\Breadcrumb\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/components/Breadcrumb/index.php', null, true)
+ 6 APPPATH\Views\pages\post.php(10): CodeIgniter\View\View->include('/components/Breadcrumb/index.php')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\post.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/post', [], true)
+10 APPPATH\Controllers\Crud\PostController.php(27): view('pages/post', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-16 18:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 18:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
