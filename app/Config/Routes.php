@@ -8,8 +8,14 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 // contoh resource controller yg valid
-$routes->resource('/post', ['controller' => '\App\Controllers\Crud\PostController', 
-// 'placeholder' => 'name'
-// 'as' => 'post.route'
+$routes->resource('/post', [
+    'controller' => '\App\Controllers\Crud\PostController',
+    // 'placeholder' => 'name'
+    // 'as' => 'post.route'
 
+]);
+
+
+$routes->resource('/category', [
+    'controller' => '\App\Controllers\Crud\CategoryController',
 ]);
