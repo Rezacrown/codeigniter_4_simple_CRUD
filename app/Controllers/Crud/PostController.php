@@ -42,6 +42,7 @@ class PostController extends BaseController
     public function create()
     {
 
+
         // validate request data
         $validation = \Config\Services::validation();
         $rules = [
@@ -73,7 +74,7 @@ class PostController extends BaseController
             return redirect()->back()->withInput()->with('validation', $validation->getErrors());
         }
 
-        // get data
+        // get request
         $body = $this->request->getVar();
 
         $this->post->insert($body);

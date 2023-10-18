@@ -19,3 +19,7 @@ $routes->resource('/post', [
 $routes->resource('/category', [
     'controller' => '\App\Controllers\Crud\CategoryController',
 ]);
+
+$routes->resource('/author', [
+    'controller' => '\App\Controllers\Crud\AuthorController',
+]);

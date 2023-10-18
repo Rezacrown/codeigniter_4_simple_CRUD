@@ -1,0 +1,435 @@
+INFO - 2023-10-18 02:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 02:34:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#13 {main}
+CRITICAL - 2023-10-18 02:34:14 --> Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`name`, `description`, `created_at`, `updated_at`) VALUES (:name:, :description:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 02:34:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#13 {main}
+CRITICAL - 2023-10-18 02:34:28 --> Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`name`, `description`, `created_at`, `updated_at`) VALUES (:name:, :description:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 02:35:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#13 {main}
+CRITICAL - 2023-10-18 02:35:01 --> Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`name`, `description`, `created_at`, `updated_at`) VALUES (:name:, :description:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 02:36:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#13 {main}
+CRITICAL - 2023-10-18 02:36:43 --> Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`name`, `description`, `created_at`, `updated_at`) VALUES (:name:, :description:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 02:36:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#13 {main}
+CRITICAL - 2023-10-18 02:36:51 --> Cannot add or update a child row: a foreign key constraint fails (`codeigniter_4_crud`.`post`, CONSTRAINT `post_author_id_foreign` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`name`, `description`, `created_at`, `updated_at`) VALUES (:name:, :description:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Crud\PostController.php(80): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:41:32 --> Undefined variable $author
+in APPPATH\Views\pages\category\create.php on line 54.
+ 1 APPPATH\Views\pages\category\create.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $author', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\category\\create.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\category\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/category/create', [], true)
+ 5 APPPATH\Controllers\Crud\CategoryController.php(32): view('pages/category/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->new()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:45:29 --> compact(): Undefined variable $category
+in APPPATH\Controllers\Crud\CategoryController.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $category', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Controllers\\Crud\\CategoryController.php', 29)
+ 2 APPPATH\Controllers\Crud\CategoryController.php(29): compact('category')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->new()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:49:28 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('zerocrown', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('zerocrown', false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert('zerocrown', false)
+ 4 APPPATH\Controllers\Crud\CategoryController.php(52): CodeIgniter\BaseModel->save('zerocrown')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:49:54 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('zerocrown', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('zerocrown', false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert('zerocrown', false)
+ 4 APPPATH\Controllers\Crud\CategoryController.php(52): CodeIgniter\BaseModel->save('zerocrown')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:50:23 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Crud\CategoryController.php(52): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:58:57 --> Controller or its method is not found: \App\Controllers\Crud\CategoryController::delete/1
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('\\App\\Controllers\\Crud\\CategoryController', 'delete/1')
+ 2 APPPATH\Views\pages\category\index.php(55): url_to('\\App\\Controllers\\Crud\\CategoryController::delete/1')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\category\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/category/index', [], true)
+ 6 APPPATH\Controllers\Crud\CategoryController.php(22): view('pages/category/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:59:11 --> Controller or its method is not found: \App\Controllers\Crud\CategoryController::delete
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('\\App\\Controllers\\Crud\\CategoryController', 'delete')
+ 2 APPPATH\Views\pages\category\index.php(55): url_to('\\App\\Controllers\\Crud\\CategoryController::delete')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\category\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/category/index', [], true)
+ 6 APPPATH\Controllers\Crud\CategoryController.php(22): view('pages/category/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 02:59:12 --> Controller or its method is not found: \App\Controllers\Crud\CategoryController::delete
+in SYSTEMPATH\Helpers\url_helper.php on line 484.
+ 1 SYSTEMPATH\Helpers\url_helper.php(484): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('\\App\\Controllers\\Crud\\CategoryController', 'delete')
+ 2 APPPATH\Views\pages\category\index.php(55): url_to('\\App\\Controllers\\Crud\\CategoryController::delete')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Views\\pages\\category\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/category/index', [], true)
+ 6 APPPATH\Controllers\Crud\CategoryController.php(22): view('pages/category/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\CategoryController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\CategoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 02:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 02:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 03:21:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'codeigniter_4_c...', 3306, '', 0)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\app\Controllers\Crud\PostController.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+#7 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+#8 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\aryhi\OneDrive\Desktop\framework-4.4.1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\...')
+#11 {main}
+CRITICAL - 2023-10-18 03:21:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`
+WHERE `post`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Crud\PostController.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\PostController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 03:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 03:48:18 --> compact(): Undefined variable $author
+in APPPATH\Controllers\Crud\AuthorController.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $author', 'C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\app\\Controllers\\Crud\\AuthorController.php', 22)
+ 2 APPPATH\Controllers\Crud\AuthorController.php(22): compact('author')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud\AuthorController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\AuthorController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\aryhi\\OneDrive\\Desktop\\framework-4.4.1\\public\\index.php')
+INFO - 2023-10-18 03:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 03:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

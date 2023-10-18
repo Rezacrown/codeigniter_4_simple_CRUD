@@ -26,7 +26,7 @@
 <!-- add category -->
 <a href="/category/new">
     <span class="mb-10 btn btn-sm btn-primary">
-        Add category
+        Add Author
     </span>
 </a>
 <!-- add category end -->
@@ -38,12 +38,12 @@
         <thead>
             <tr>
                 <th>No.</th>
-                <th>Name Category</th>
+                <th>Name Author</th>
                 <th>Action</th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($category as $key => $item) : ?>
+            <?php foreach ($author as $key => $item) : ?>
                 <tr>
                     <td class="bg-base-200">
                         <?= $key + 1 ?>
