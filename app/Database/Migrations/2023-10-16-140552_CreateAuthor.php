@@ -3,6 +3,7 @@
 namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
+use PhpParser\Node\Expr\Cast\Bool_;
 
 class CreateAuthor extends Migration
 {
@@ -18,6 +19,18 @@ class CreateAuthor extends Migration
             'name' => [
                 'type' => 'VARCHAR',
                 'constraint' => 255,
+            ],
+            'email' => [
+                'type' => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'password' => [
+                'type' => 'VARCHAR',
+                'constraint' => 255,
+            ],
+            'is_admin' => [
+                'type' => 'BOOLEAN ',
+                'default' => false,
             ],
             'created_at' => [
                 'type' => 'DATETIME',
@@ -36,6 +49,7 @@ class CreateAuthor extends Migration
         $this->forge->createTable('author');
     }
 
+    
     public function down()
     {
         $this->forge->dropTable('author');

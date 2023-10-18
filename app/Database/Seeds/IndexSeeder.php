@@ -9,8 +9,8 @@ class IndexSeeder extends Seeder
     public function run()
     {
 
-        $this->call('AuthorSeeder');
         $this->call('CategorySeeder');
+        $this->call('AuthorSeeder');
         $this->call('PostSeeder');
     }
 }

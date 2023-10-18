@@ -33,6 +33,10 @@ class CreatePosts extends Migration
                 'constraint' => 11,
                 'unsigned' => true,
             ],
+            'is_public' => [
+                'type' => 'BOOL',
+                'default' => false,
+            ],
             'created_at' => [
                 'type' => 'DATETIME',
                 'null' => true,

@@ -15,6 +15,7 @@ class PostSeeder extends Seeder
                 'description' => 'description 1',
                 'category_id' => 3,
                 'author_id' => 1,
+                'is_public' => true,
                 'created_at' =>  date('Y:m:d h:i:s', time()),
                 'updated_at' =>  date('Y:m:d h:i:s', time()),
             ],
@@ -24,6 +25,7 @@ class PostSeeder extends Seeder
                 'description' => 'description 2',
                 'category_id' => 3,
                 'author_id' => 2,
+                'is_public' => true,
                 'created_at' =>  date('Y:m:d h:i:s', time()),
                 'updated_at' =>  date('Y:m:d h:i:s', time()),
             ],
@@ -33,6 +35,7 @@ class PostSeeder extends Seeder
                 'description' => null,
                 'category_id' => 1,
                 'author_id' => 1,
+                'is_public' => true, // 1 for true
                 'created_at' =>  date('Y:m:d h:i:s', time()),
                 'updated_at' =>  date('Y:m:d h:i:s', time()),
             ],

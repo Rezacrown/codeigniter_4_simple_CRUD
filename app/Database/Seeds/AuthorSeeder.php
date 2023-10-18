@@ -12,12 +12,18 @@ class AuthorSeeder extends Seeder
             [
                 'id' => 1,
                 'name' => 'Raka',
+                'email' => 'Raka@gmail.com',
+                'password' => '12345678',
+                'is_admin' => true,
                 'created_at' =>  date('Y:m:d h:i:s', time()),
                 'updated_at' =>  date('Y:m:d h:i:s', time()),
             ],
             [
                 'id' => 2,
                 'name' => 'Udin',
+                'email' => 'udin12@gmail.com',
+                'password' => '12345678',
+                'is_admin' => true,
                 'created_at' =>  date('Y:m:d h:i:s', time()),
                 'updated_at' =>  date('Y:m:d h:i:s', time()),
             ],
