@@ -23,7 +23,7 @@ class PostController extends BaseController
     public function index()
     {
         $title = 'Posts';
-        $posts = $this->post->findAll();
+        $posts = $this->post->where('is_public', true)->findAll();
 
         return view('pages/post', compact('posts', 'title'));
     }
