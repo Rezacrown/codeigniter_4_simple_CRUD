@@ -30,8 +30,15 @@
                 </li>
 
             <?php endif ?>
-
-
         </ul>
+
+        <ul class="px-1 menu menu-horizontal">
+            <li>
+                <form action="<?= route_to('auth.logout') ?>" method="post">
+                    <button type="submit">Logout</button>
+                </form>
+            </li>
+        </ul>
+
     </div>
 </div>

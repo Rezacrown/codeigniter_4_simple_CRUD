@@ -40,23 +40,29 @@
 
 <div class="relative flex flex-col justify-center h-screen overflow-hidden">
     <div class="w-full p-6 m-auto rounded-md shadow-md lg:max-w-lg bg-secondary-content">
-        <h1 class="text-3xl font-semibold text-center text-purple-700">Login Page</h1>
+        <h1 class="text-3xl font-semibold text-center text-purple-700">Register Page</h1>
 
-        <form action="<?= route_to('auth.signin') ?>" method="post" class="space-y-4">
+        <form action="<?= route_to('auth.register') ?>" method="post" class="space-y-4">
+            <div>
+                <label class="label">
+                    <span class="text-base label-text">Name</span>
+                </label>
+                <input type="text" placeholder="Your Name" name="name" class="w-full input input-bordered input-primary" />
+            </div>
             <div>
                 <label class="label">
                     <span class="text-base label-text">Email</span>
                 </label>
-                <input type="text" placeholder="Email Address" name="email" class="w-full input input-bordered input-primary" />
+                <input type="text" placeholder="Your Email Address" name="email" class="w-full input input-bordered input-primary" />
             </div>
             <div>
                 <label class="label">
                     <span class="text-base label-text">Password</span>
                 </label>
-                <input type="password" name="password" placeholder="Enter Password" class="w-full input input-bordered input-primary" />
+                <input type="password" name="password" placeholder="Enter Your Password" class="w-full input input-bordered input-primary" />
             </div>
             <div>
-                <button class="btn btn-primary">Login</button>
+                <button class="btn btn-primary">Register</button>
             </div>
         </form>
     </div>

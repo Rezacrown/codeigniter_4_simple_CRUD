@@ -32,7 +32,10 @@
                 <th>Name Author</th>
                 <th>Post</th>
                 <th>Description</th>
-                <th>Action</th>
+                <?php if ($is_admin) : ?>
+                    <th>Action</th>
+                <?php endif ?>
+
             </tr>
         </thead>
         <tbody>
@@ -43,14 +46,17 @@
                     <td><?= $item['name'] ?></td>
                     <td><?= $item['description'] ?? '-' ?></td>
 
-                    <td>
-                        <form action="/post/<?= $item['id'] ?>" method="post">
-                            <a href="/post/<?= $item['name'] ?>/edit" class="btn btn-warning">Edit</a>
-                            <button type="submit" class="btn btn-error">Delete</button>
-                            
-                            <input type="hidden" name="_method" value="DELETE">
-                        </form>
-                    </td>
+                    <?php if ($is_admin) : ?>
+                        <td>
+                            <form action="/post/<?= $item['id'] ?>" method="post">
+                                <a href="/post/<?= $item['name'] ?>/edit" class="btn btn-warning">Edit</a>
+                                <button type="submit" class="btn btn-error">Delete</button>
+
+                                <input type="hidden" name="_method" value="DELETE">
+                            </form>
+                        </td>
+                    <?php endif ?>
+
 
                 </tr>
             <?php endforeach ?>

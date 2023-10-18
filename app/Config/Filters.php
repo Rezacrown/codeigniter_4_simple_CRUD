@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use App\Filters\GuestMidleware;
+use App\Filters\VerifiedMidleware;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -24,6 +26,9 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        // my middleware filter
+        'verified' => VerifiedMidleware::class,
+        'guest' => GuestMidleware::class,
     ];
 
     /**

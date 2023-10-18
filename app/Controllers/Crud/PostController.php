@@ -23,9 +23,28 @@ class PostController extends BaseController
     public function index()
     {
         $title = 'Posts';
-        $posts = $this->post->where('is_public', true)->findAll();
+        // $posts = $this->post->where('is_public', true)->findAll();
+        $posts = [];
 
-        return view('pages/post', compact('posts', 'title'));
+
+        // ambil data user
+        $user = session()->get('verified');
+
+        // cek admin apa bukan
+        $is_admin = $this->author->where('email', $user['email'])->where('is_admin', true)->first();
+
+
+        // cek post yg akan ditampilkan
+        if ($is_admin) {
+            $posts = $this->post->findAll();
+            $is_admin = true;
+        } else {
+            $posts = $this->post->where('is_public', true)->findAll();
+            $is_admin = false;
+        }
+
+
+        return view('pages/post', compact('posts', 'title', 'is_admin'));
     }
 
     public function new()

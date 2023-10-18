@@ -18,6 +18,7 @@ class PostModel extends Model
         'description',
         'category_id',
         'author_id',
+        'is_public',
     ];
 
     // Dates

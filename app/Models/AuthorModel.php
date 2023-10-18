@@ -14,7 +14,10 @@ class AuthorModel extends Model
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'name'
+        'name',
+        'email',
+        'password',
+        'is_admin',
     ];
 
     // Dates
