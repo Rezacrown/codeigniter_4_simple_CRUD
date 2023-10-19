@@ -45,7 +45,7 @@
         </thead>
         <tbody>
             <?php foreach ($author as $key => $item) : ?>
-                <tr class="mx-auto" >
+                <tr class="mx-auto">
                     <td class="bg-base-200">
                         <?= $key + 1 ?>
                     </td>
@@ -55,7 +55,7 @@
                     <td class="bg-base-200">
                         <?= $item['is_admin'] == 1 ? 'admin' : 'user' ?>
                     </td>
-                    
+
                     <td class="flex gap-3 bg-base-200">
                         <form action="/author/<?= $item['id'] ?>" method="post">
                             <input type="hidden" name="_method" value="PUT">
@@ -63,13 +63,13 @@
                                 <?= $item['is_admin'] ? 'Set User' : 'Set Admin' ?>
                             </button>
                         </form>
-                        
-                        
+
+
                         <form action="/author/<?= $item['id'] ?>" method="post">
                             <input type="hidden" name="_method" value="DELETE">
                             <button type="submit" class="btn btn-error btn-sm">Delete</button>
                         </form>
-                        
+
                     </td>
                 </tr>
             <?php endforeach ?>
@@ -78,6 +78,10 @@
     </table>
 </div>
 <!-- table end -->
+
+<!-- paginate -->
+
+<!-- paginate end -->
 
 <?php $this->endsection('content'); ?>
 

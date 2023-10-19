@@ -16,11 +16,33 @@ class AuthorController extends BaseController
 
     public function index()
     {
+        // $offset = $this->request->getVar('offset') ?? 0;
+        // $page = 1;
 
+        // $author = $this->author->findAll(2, $offset);
         $author = $this->author->findAll();
 
-        return view('pages/author/index', compact('author'));
+        $totalAuthor = $this->author->countAllResults();
+
+
+        return view('pages/author/index', compact('author', 
+        // 'offset', 'page', 'totalAuthor'
+    ));
     }
+
+
+    // public function show(int $page = null)
+    // {
+    //     // $page = $page + 1;
+
+    //     $offset = $this->request->getVar('offset');
+
+    //     $author = $this->author->findAll(2, $offset);
+
+    //     $totalAuthor = $this->author->countAllResults();
+
+    //     return view('pages/author/index', compact('author', 'offset', 'page', 'totalAuthor'));
+    // }
 
 
     public function new()

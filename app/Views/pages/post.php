@@ -29,14 +29,16 @@
 
         <div class="shadow-xl sm:w-40 md:w-3/12 card bg-base-300">
             <div class="card-body">
-                <h2 class="card-title">
+                <h2 class="card-title text-accent">
                     <?= $item['name'] ?>
                 </h2>
-                <p>
-                    <?= $item['description'] ?? '-' ?>
+                <p  class="text-accent-content" >
+                    <?= isset($item['description']) ? $item['description'] : '-' ?>
                 </p>
+                
                 <div class="justify-end card-actions">
-                    <?php if ($is_admin) : ?>
+                    
+                    <?php if ($is_admin || $item['author_id'] == session()->get('verified')['id']  ) : ?>
                         <form action="/post/<?= $item['id'] ?>" method="post">
                         
                             <a href="/post/<?= $item['name'] ?>/edit" class="btn btn-sm btn-warning">Edit</a>

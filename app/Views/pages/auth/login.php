@@ -55,9 +55,11 @@
                 </label>
                 <input type="password" name="password" placeholder="Enter Password" class="w-full input input-bordered input-primary" />
             </div>
-            <div>
+            <div class="gap-x-3">
                 <button class="btn btn-primary">Login</button>
+                <a href="/register" class="cursor-pointer btn btn-accent">Register Page</a>
             </div>
+
         </form>
     </div>
 </div>

@@ -5,7 +5,7 @@
     <div class="flex-none">
         <!-- navigation for category and author -->
         <ul class="px-1 menu menu-horizontal">
-            <?php if (request()->getPath() === 'post') : ?>
+            <?php if (session()->get('verified')['is_admin']) : ?>
                 <li>
                     <a href="/category">Category</a>
                 </li>
@@ -32,12 +32,19 @@
             <?php endif ?>
         </ul>
 
+        <!-- auth nav -->
         <ul class="px-1 menu menu-horizontal">
-            <li>
-                <form action="<?= route_to('auth.logout') ?>" method="post">
-                    <button type="submit">Logout</button>
-                </form>
-            </li>
+            <?php if (session()->get('verified')) : ?>
+                <li>
+                    <form action="<?= route_to('auth.logout') ?>" method="post">
+                        <button type="submit">Logout</button>
+                    </form>
+                </li>
+            <?php else : ?>
+                <li>
+                    <a href="/login">Login</a>
+                </li>
+            <?php endif ?>
         </ul>
 
     </div>

@@ -34,8 +34,6 @@ class PostController extends BaseController
         $is_admin = $this->author->where('email', $user['email'] ?? null)->where('is_admin', true)->first();
 
 
-
-
         // cek post yg akan ditampilkan
         if ($is_admin) {
             $posts = $this->post->findAll();
