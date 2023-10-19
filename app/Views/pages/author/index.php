@@ -24,7 +24,7 @@
 
 
 <!-- add category -->
-<a href="/category/new">
+<a href="/author/new">
     <span class="mb-10 btn btn-sm btn-primary">
         Add Author
     </span>
@@ -39,12 +39,13 @@
             <tr>
                 <th>No.</th>
                 <th>Name Author</th>
+                <th>is admin</th>
                 <th>Action</th>
             </tr>
         </thead>
         <tbody>
             <?php foreach ($author as $key => $item) : ?>
-                <tr>
+                <tr class="mx-auto" >
                     <td class="bg-base-200">
                         <?= $key + 1 ?>
                     </td>
@@ -52,10 +53,23 @@
                         <?= $item['name'] ?>
                     </td>
                     <td class="bg-base-200">
-                        <form action="/category/<?= $item['id'] ?>" method="post">
+                        <?= $item['is_admin'] == 1 ? 'admin' : 'user' ?>
+                    </td>
+                    
+                    <td class="flex gap-3 bg-base-200">
+                        <form action="/author/<?= $item['id'] ?>" method="post">
+                            <input type="hidden" name="_method" value="PUT">
+                            <button type="submit" class=" btn btn-info btn-sm">
+                                <?= $item['is_admin'] ? 'Set User' : 'Set Admin' ?>
+                            </button>
+                        </form>
+                        
+                        
+                        <form action="/author/<?= $item['id'] ?>" method="post">
                             <input type="hidden" name="_method" value="DELETE">
                             <button type="submit" class="btn btn-error btn-sm">Delete</button>
                         </form>
+                        
                     </td>
                 </tr>
             <?php endforeach ?>

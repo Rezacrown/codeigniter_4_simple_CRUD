@@ -36,7 +36,7 @@
             <input name="name" type="text" placeholder="Name Category" class="w-full input input-bordered input-success" />
         </div>
         
-        <button type="submit" class="btn btn-primary">Create new Post</button>
+        <button type="submit" class="btn btn-primary">Create new Category</button>
     </form>
 </div>
 <!-- table end -->

@@ -31,7 +31,9 @@ class PostController extends BaseController
         $user = session()->get('verified');
 
         // cek admin apa bukan
-        $is_admin = $this->author->where('email', $user['email'])->where('is_admin', true)->first();
+        $is_admin = $this->author->where('email', $user['email'] ?? null)->where('is_admin', true)->first();
+
+
 
 
         // cek post yg akan ditampilkan
@@ -52,7 +54,9 @@ class PostController extends BaseController
         $title = 'Create Post';
 
         $category = $this->category->findAll();
-        $author = $this->author->findAll();
+        // get data author
+        // $author = $this->author->findAll();
+        $author = session()->get('verified');
 
         return view('pages/create', compact('category', 'author', 'title'));
     }
@@ -96,7 +100,16 @@ class PostController extends BaseController
         // get request
         $body = $this->request->getVar();
 
-        $this->post->insert($body);
+        // custom payload for save
+        $payload = [
+            'name' => $body['name'],
+            'description' => $body['description'],
+            'category_id' => $body['category_id'],
+            'author_id' => $body['author_id'],
+            'is_public' => true,
+        ];
+
+        $this->post->insert($payload);
 
         return redirect()->to('/post')->with('success', "berhasil create post");
     }
@@ -111,13 +124,14 @@ class PostController extends BaseController
         // var_dump($post);
 
         $category = $this->category->findAll();
-        $author = $this->author->findAll();
+        // $author = $this->author->findAll();
+        $author = session()->get('verified');
 
         return view('pages/edit', compact('post', 'category', 'author', 'title'));
     }
 
 
-    public function update($id)
+    public function update($name)
     {
 
         // validasi request
@@ -152,13 +166,17 @@ class PostController extends BaseController
         }
 
         // get data for update
-        $post = $this->post->find($id);
+        $body = $this->request->getVar();
+        $post = $this->post->where('author_id', $body['author_id'])->where('name', $name)->first();
 
-        $post['name'] = $this->request->getVar('name');
-        $post['category_id'] = $this->request->getVar('category_id');
-        $post['author_id'] = $this->request->getVar('author_id');
 
         // update data and redirect
+        $post['name'] = $body['name'];
+        $post['description'] = $body['description'];
+        $post['category_id'] = $body['category_id'];
+        $post['is_public'] = true;
+
+
         $this->post->save($post);
 
         return redirect()->to('/post')->with('success', 'berhasil update data post');

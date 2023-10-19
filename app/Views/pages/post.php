@@ -10,7 +10,7 @@
 
 
 <!-- alert -->
-<div class="mt-10">
+<div class="my-10">
     <?php if (session()->has('success')) : ?>
         <div class="alert alert-success">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-current shrink-0" fill="none" viewBox="0 0 24 24">
@@ -23,47 +23,37 @@
 <!-- alert end -->
 
 <!-- table -->
-<div class="overflow-x-auto">
-    <table class="table">
-        <!-- head -->
-        <thead>
-            <tr>
-                <th>No.</th>
-                <th>Name Author</th>
-                <th>Post</th>
-                <th>Description</th>
-                <?php if ($is_admin) : ?>
-                    <th>Action</th>
-                <?php endif ?>
 
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach ($posts as $key => $item) : ?>
-                <tr class="bg-base-200">
-                    <th><?= $key + 1 ?></th>
-                    <td><?= $item['author_id'] ?></td>
-                    <td><?= $item['name'] ?></td>
-                    <td><?= $item['description'] ?? '-' ?></td>
+<div class="flex flex-col flex-wrap justify-center md:flex-row md:gap-x-8 md:gap-y-10 gap-y-3">
+    <?php foreach ($posts as $key => $item) : ?>
 
+        <div class="shadow-xl sm:w-40 md:w-3/12 card bg-base-300">
+            <div class="card-body">
+                <h2 class="card-title">
+                    <?= $item['name'] ?>
+                </h2>
+                <p>
+                    <?= $item['description'] ?? '-' ?>
+                </p>
+                <div class="justify-end card-actions">
                     <?php if ($is_admin) : ?>
-                        <td>
-                            <form action="/post/<?= $item['id'] ?>" method="post">
-                                <a href="/post/<?= $item['name'] ?>/edit" class="btn btn-warning">Edit</a>
-                                <button type="submit" class="btn btn-error">Delete</button>
+                        <form action="/post/<?= $item['id'] ?>" method="post">
+                        
+                            <a href="/post/<?= $item['name'] ?>/edit" class="btn btn-sm btn-warning">Edit</a>
 
-                                <input type="hidden" name="_method" value="DELETE">
-                            </form>
-                        </td>
+                            <button type="submit" class="btn btn-sm btn-error">Delete</button>
+                            <input type="hidden" name="_method" value="DELETE">
+                        </form>
                     <?php endif ?>
 
+                </div>
+            </div>
+        </div>
 
-                </tr>
-            <?php endforeach ?>
 
-        </tbody>
-    </table>
+    <?php endforeach ?>
 </div>
+
 <!-- table end -->
 
 <?php $this->endsection('content'); ?>

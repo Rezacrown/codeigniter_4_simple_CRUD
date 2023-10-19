@@ -60,22 +60,7 @@
         </div>
 
         <div class="inline-block">
-            <select name="author_id" value="<?= $post['author_id'] ?>" required class="w-full select select-info">
-                <option disabled>Select Author</option>
-                <?php foreach ($author as $key => $item) : ?>
-
-                    <?php if ($item['id'] === $post['author_id']) : ?>
-                        <option selected value="<?= $item['id'] ?>">
-                            <?= $item['name'] ?>
-                        </option>
-                    <?php else : ?>
-                        <option value="<?= $item['id'] ?>">
-                            <?= $item['name'] ?>
-                        </option>
-                    <?php endif ?>
-
-                <?php endforeach ?>
-            </select>
+            <input type="hidden" name="author_id" value="<?= $author['id'] ?>">
         </div>
 
         <button type="submit" class="btn btn-primary">Save</button>

@@ -50,14 +50,7 @@
         </div>
 
         <div class="inline-block">
-            <select name="author_id" required class="w-full select select-info">
-                <option disabled selected>Select Author</option>
-                <?php foreach ($author as $key => $item) : ?>
-                    <option value="<?= $item['id'] ?>">
-                        <?= $item['name'] ?>
-                    </option>
-                <?php endforeach ?>
-            </select>
+            <input type="hidden" name="author_id" value="<?= $author['id'] ?>"  >
         </div>
 
         <button type="submit" class="btn btn-primary">Create new Post</button>
